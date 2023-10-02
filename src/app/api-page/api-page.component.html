@@ -1,0 +1,21 @@
+<h2>Relatório teste</h2>
+<div class="card">
+  <table>
+    <tr>
+      <th>#id</th>
+      <th>Nome</th>
+      <th>Status</th>
+      <th>Espécie</th>
+      <th>Tipo</th>
+      <th>Gênero</th>
+    </tr>
+      <tr *ngFor="let character of data">
+        <td>{{character.id}}</td>
+        <td>{{character.name}}</td>
+        <td>{{character.status}}</td>
+        <td>{{character.species}}</td>
+        <td>{{character.type}}</td>
+        <td>{{character.gender}}</td>
+      </tr>
+  </table>
+</div>
